@@ -3,12 +3,14 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing dependencies...
-      - npm install
+      - echo Installing Python dependencies...
+      - pip install -r requirements.txt 
   build:
     commands:
-      - echo Building the application...
-      - npm run build
+      - echo No build step required for this Python app.  
+  post_build:
+    commands:
+      - echo Build complete.
 artifacts:
   files:
-    - '**/*'
+    - '**/*'  
