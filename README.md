@@ -1,1 +1,1 @@
-echo "# AWS Continuous Delivery Pipeline" > README.md
+echo "# AWS Continuous Delivery Pipeline" 
